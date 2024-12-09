@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.paper {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.controls input[type="range"] {
+  width: 100%;
+}
+
+.box_preview_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls input[type="color"] {
+  margin-top: 10px;
+}
+
+.box_template {
+  display: flex;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.box_template div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(121, 223, 241);
+}
+
+.preview {
+  padding: 20px;
+}
+
+.preview div {
+  width: 200px; /* Chiều rộng ban đầu */
+  height: 200px; /* Chiều cao ban đầu */
+  max-width: 500px;
+  max-height: 500px;
+  background-color: #f0f0f0;
+  resize: both; /* Cho phép thay đổi kích thước */
+  overflow: hidden; /* Ẩn thanh cuộn */
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.button {
+  padding: 10px 20px;
+  background: #fff;
+    border: 1px solid gray;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.listBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.item {
+  width: 100%;
+  opacity: 0.8;
+  padding: 10px;
+}
+
+.item:hover {
+  opacity: 1;
+}
+
+.selected {
+  background-color: rgb(92, 106, 196);
+  color: white;
+}
+
+.button:hover {
+  background: #f9f9f9;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Position above the input */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+label:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
