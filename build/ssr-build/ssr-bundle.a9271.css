@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100vh;
+}
+.container__AWLjd {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.paper__hUXIe {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.box__jIF2g {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  gap: 20px;
+}
+
+.controls__bnz\+v {
+  margin-bottom: 20px;
+}
+
+.controls__bnz\+v label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.controls__bnz\+v input[type="range"] {
+  width: 100%;
+}
+
+.box_preview_title__MUOz0 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.controls__bnz\+v input[type="color"] {
+  margin-top: 10px;
+}
+
+.box_template__j2LdC {
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.box_template__j2LdC div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(121, 223, 241);
+}
+
+.preview__cUc-j {
+  padding: 20px;
+}
+
+.preview__cUc-j div {
+  width: 200px; /* Chiều rộng ban đầu */
+  height: 200px; /* Chiều cao ban đầu */
+  max-width: 500px;
+  max-height: 500px;
+  background-color: #f0f0f0;
+  resize: both; /* Cho phép thay đổi kích thước */
+  overflow: hidden; /* Ẩn thanh cuộn */
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.button__5kNlZ {
+  padding: 10px 20px;
+  background: #fff;
+    border: 1px solid gray;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.listBox__\+rXWQ {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-top: 20px;
+}
+
+.item__wThWi {
+  width: 100%;
+  opacity: 0.8;
+  padding: 10px;
+}
+
+.item__wThWi:hover {
+  opacity: 1;
+}
+
+.selected__o0IZL {
+  background-color: rgb(92, 106, 196);
+  color: white;
+}
+
+.button__5kNlZ:hover {
+  background: #f9f9f9;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.tooltip__WI8IH {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Position above the input */
+  left: 50%;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+label:hover .tooltip__WI8IH {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=ssr-bundle.a9271.css.map*/

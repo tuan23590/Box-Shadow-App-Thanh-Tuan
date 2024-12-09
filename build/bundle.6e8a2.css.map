@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://./style/index.css"],"names":[],"mappings":"AAAA,EAGC,qBAAsB,CAFtB,QAAS,CACT,SAED,CACA,KACC,6BAAiC,CAEjC,YAAa,CADb,UAED","file":"bundle.6e8a2.css","sourcesContent":["*{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tbox-sizing: border-box;\r\n}\r\nbody{\r\n\tfont-family: 'Roboto', sans-serif;\r\n\twidth: 100%;\r\n\theight: 100vh;\r\n}"]}
