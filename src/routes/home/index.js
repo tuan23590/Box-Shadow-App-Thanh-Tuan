@@ -266,9 +266,9 @@ const Home = () => {
               style={{
                 boxShadow: combinedBoxShadow,
                 backgroundColor: boxShadowColor.boxColor,
-                transition: "all 0.3s",
+                transition: "box-shadow 0.3s",
               }}
-            ></div>
+            />
           </div>
         </div>
         <div class={style.paper}>
@@ -279,10 +279,10 @@ const Home = () => {
           <h3>Template</h3>
           <div class={style.box_template}>
             <button onClick={addTemplate1}>
-              <div style={{ boxShadow: combinedBoxShadowTemplate1 }}></div>
+              <div style={{ boxShadow: combinedBoxShadowTemplate1 }} />
             </button>
             <button onClick={addTemplate2}>
-              <div style={{ boxShadow: combinedBoxShadowTemplate2 }}></div>
+              <div style={{ boxShadow: combinedBoxShadowTemplate2 }} />
             </button>
           </div>
         </div>
