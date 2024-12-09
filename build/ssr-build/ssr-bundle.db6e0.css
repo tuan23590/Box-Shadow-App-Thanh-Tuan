@@ -16,7 +16,7 @@ body{
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 20px;
-  width: 70%;
+  width: 70vw;
   margin: 0 auto;
   gap: 20px;
 }
@@ -35,6 +35,17 @@ body{
   -ms-flex-direction: column;
       flex-direction: column;
   gap: 20px;
+}
+
+@media (max-width: 768px) { /* Áp dụng cho thiết bị có chiều rộng nhỏ hơn hoặc bằng 768px */
+  .box__jIF2g {
+    width: 100%;
+  }
+  .container__AWLjd {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    width: 100vw;
+  }
 }
 
 .controls__bnz\+v {
@@ -154,4 +165,4 @@ label:hover .tooltip__WI8IH {
   opacity: 1;
 }
 
-/*# sourceMappingURL=ssr-bundle.a9271.css.map*/
+/*# sourceMappingURL=ssr-bundle.db6e0.css.map*/

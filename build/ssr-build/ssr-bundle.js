@@ -371,7 +371,7 @@ var Home = function Home() {
     style: {
       boxShadow: combinedBoxShadow,
       backgroundColor: boxShadowColor.boxColor,
-      transition: "all 0.3s"
+      transition: "box-shadow 0.3s"
     }
   }))), h("div", {
     class: _style_css__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].paper
@@ -11361,7 +11361,7 @@ var template1 = [{
   shiftDown: 5,
   spread: 0,
   blur: 0,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#289FED"
 }, {
@@ -11369,7 +11369,7 @@ var template1 = [{
   shiftDown: 10,
   spread: 0,
   blur: 0,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#5FB8FF"
 }, {
@@ -11377,7 +11377,7 @@ var template1 = [{
   shiftDown: 15,
   spread: 0,
   blur: 0,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#A1D8FF"
 }, {
@@ -11385,7 +11385,7 @@ var template1 = [{
   shiftDown: 20,
   spread: 0,
   blur: 0,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#CAE6FF"
 }, {
@@ -11393,7 +11393,7 @@ var template1 = [{
   shiftDown: 25,
   spread: 0,
   blur: 0,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#E1EEFF"
 }];
@@ -11402,7 +11402,7 @@ var template2 = [{
   shiftDown: 0,
   spread: 0,
   blur: 4,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#FFFFFF"
 }, {
@@ -11410,7 +11410,7 @@ var template2 = [{
   shiftDown: 0,
   spread: 0,
   blur: 10,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#FFFF00"
 }, {
@@ -11418,7 +11418,7 @@ var template2 = [{
   shiftDown: 0,
   spread: 0,
   blur: 20,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#FF8000"
 }, {
@@ -11426,7 +11426,7 @@ var template2 = [{
   shiftDown: 0,
   spread: 0,
   blur: 40,
-  opacity: 1,
+  opacity: 100,
   inset: false,
   color: "#FF0000"
 }];
